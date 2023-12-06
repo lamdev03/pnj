@@ -1,0 +1,34 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e2e6e79e;
+    height: 64px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-list li {
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-list li:hover {
+    text-decoration: none;
+}
+
+.header-actions {
+    display: flex;
+    align-items: middle;
+}
